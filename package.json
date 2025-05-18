@@ -15,6 +15,6 @@
   "author": "Isnaini",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.17.4"
+    "cypress": "^14.3.3"
   }
 }

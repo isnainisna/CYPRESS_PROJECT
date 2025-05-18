@@ -1,0 +1,31 @@
+{
+    "validUsername": "Admin",
+    "validPassword": "admin123",
+    "validSearch": [
+    {
+      "employeeName": "Peter Mac Anderson",
+      "jobTitle": "Chief Financial Officer",
+      "location": "New York Sales Office"
+    },
+    {
+      "employeeName": "Sania Shaheen",
+      "jobTitle": "QA Engineer",
+      "location": "Texas R&D"
+    }
+],
+    "InvalidSearch": [
+    {
+      "employeeName": "Peter Mac Anderson",
+      "jobTitle": "Chief Financial Officer",
+      "location": "New York Sales Office"
+    },
+    {
+      "employeeName": "Sania Shaheen",
+      "jobTitle": "QA Engineer",
+      "location": "Texas R&D"
+    }
+]
+
+}
+
+    
