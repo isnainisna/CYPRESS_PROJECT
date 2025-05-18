@@ -77,8 +77,8 @@ ResetFilterByLocation(){
     cy.get('.oxd-select-dropdown > *').contains('New York Sales Office').click()
 }
     
-VerifyUserNotFound(name){
-    cy.contains(name).should('be.visible');  
+VerifyUserNotFound(){
+    cy.get('.oxd-toast-container').should('be.visible').contains('No Records Found')
 }
 FilterByJobList(){
     cy.get('.oxd-select-wrapper').eq(0).click()
