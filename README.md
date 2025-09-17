@@ -37,7 +37,7 @@ CYPRESS_PROJECT/
 
 ---
 
-## ⚙️ Tools & Technology
+## ⚙️ Tools
 
 | Tool       | Description                          |
 |------------|--------------------------------------|
