@@ -38,7 +38,7 @@ describe('Login OrangeHRM', ()=> {
     it ('TC5 login inValid username dan password tidak diisi',()=> {
         cy.get('input[name="username"]').type('');
         cy.get('input[name="password"]').clear().type('')
-        cy.get('.oxd-button').click()   
+        cy.get('.oxd-button').click   
     })
 
 //Login_invalid_password dan username menggunakan spesial karakter
